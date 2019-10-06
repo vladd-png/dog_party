@@ -28,6 +28,6 @@ This is a webpage devoted to all things dog. The original design of the website 
 
 **Extras**
 1. The Nav bar at the top notifies you of choice with a hover tool.
-1. In both mobile and tablet screen size the articles stack on top of eachother for better readability, as well as the navigation bar reorders to be stacked instead of inline.
+1. In both mobile and tablet screen size the articles stack on top of each other for better readability, as well as the navigation bar reorders to be stacked instead of inline.
 1. The best good boy made his way into this webpage. 
-1. Both the buttons, input fields, and soacing is responsive to layout. 
+1. Both the buttons, input fields, and spacing is responsive to layout. 
