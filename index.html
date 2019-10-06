@@ -2,59 +2,71 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Dog Party</title>
-    <link href="./style.css" type="text/css"
-      rel="stylesheet" />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-
   <body>
     <header>
       <img id="icon" src="./images/dog-party-assets/dog-icon.svg" alt="icon">
       <nav>
         <ul class="nav-top">
-          <li>How To Dog</li>
-          <li>What Is Dogs</li>
-          <li>Facts From Dogs</li>
+          <li class="model1">How To Dog</li>
+          <li class="model1">What Is Dogs</li>
+          <li class="model1">Facts From Dogs</li>
         </ul>
       </nav>
     </header>
-
     <main>
       <section>
         <h1>A Site About <span class="bold">Some Dogs</span></h1>
         <img src="./images/dog-party-assets/dog1-sq.jpg" alt="Dog Icon" id="first_pic">
-        <!-- <p>Name</p>
-        <input type="text" name="dog_name" />
-        <button>Name This Dog</button> -->
         <div class="form_container">
-          <!-- <form action="http://www.turing.io"> -->
-            <label>Name</label>
-            <input type="text" name="input" />
-            <input id="submit" type="submit" name="name" value="Name This Dog" />
-          <!-- </form> -->
+            <label for="click">Name</label>
+            <input type="text" name="input" id="click"/>
+            <button id="submit">Name This Dog</button>
         </div>
       </section>
       <div class="row">
         <div class="column">
           <h2>How to Dog</h2>
           <img src="./images/dog-party-assets/dog2-sq.jpg">
-          <p>Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.</p>
+          <p id="hidden1">Dat tungg tho pupperino length boy. borkdrive aqua doggo.
+            Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf,
+            heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water
+            shoob stop it fren, boofers pupper heck ruff.</p>
         </div>
         <div class="column">
           <h2>What is Dogs</h2>
           <img src="./images/dog-party-assets/dog3-sq.jpg">
-          <p>Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe. Extremely cuuuuuute corgo waggy wags stop it fren.</p>
+          <p id="hidden2">Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin
+            angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have
+            ever seen heckin angery woofer pupper. ruff adorable doggo very hand that feed shibe.
+            Extremely cuuuuuute corgo waggy wags stop it fren.</p>
         </div>
         <div class="column">
           <h2>Facts from Dog</h2>
-          <img src="./images/dog-party-assets/Ranger.jpeg">
-          <p>Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doin me a concern shibe such treat ruff heck, stop it fren you givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.You are doin me a concern such treat ruff heck,fren you givin me a spook.</p>
+          <img src="./images/dog-party-assets/RangerT.png">
+          <p id="hidden3">Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doin
+            me a concern shibe such treat ruff heck, stop it fren you givin me a spook. Puggorino
+            long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.
+            You are doin me a concern such treat ruff heck,fren you givin me a spook.</p>
         </div>
       </div>
       <div>
-          <input class="b_button" type="button" value="Facts"/>
-          <input class="b_button" type="button" value="Facts"/>
-          <input class="b_button" type="button" value="Facts"/>
+          <button id="button1" class="b_button">How</button>
+          <button id="button2" class="b_button">What</button>
+          <button id="button3" class="b_button">Facts</button>
+          <form class="parEdit">
+            <p>Enter Text to Edit Article</p>
+            <input type="text" name="input" id="formInput"/>
+            <select name="Article" id="inputBox">
+              <option id="form1" value="How">How</otion>
+              <option id="form2" value="What">What</otion>
+              <option id="form3" value="Facts">Facts</otion>
+            </select>
+            <button type="button" default="disabled" id="submitB">Submit</button>
+          </form>
       </div>
     </main>
     <footer class="row">
@@ -65,5 +77,5 @@
         <img class="contact_icon" src="./images/dog-party-assets/linkedin.svg">
     </footer>
   </body>
-
+<script src="main.js"></script>
 </html>
