@@ -5,6 +5,7 @@
 ![alt text](https://user-images.githubusercontent.com/53594458/66277458-7526fc00-e88e-11e9-9297-7a0232e688c3.png "Bottom of Page")
 
 This is a webpage devoted to all things dog. The original design of the website comes from a static image. The following were directions required by the webpage.
+
 **Please Include the Following**
 1. Build functionality to allow a user to type a dog name in the input field and then, when the user clicks the button, have that dog name replace the text Some Dogs in the main A Site About Some Dogs header and clear out the input field.
 2. Make your Dog Party site mobile. 
